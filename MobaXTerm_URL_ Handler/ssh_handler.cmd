@@ -6,7 +6,7 @@ REM https://tcpip.wtf
 REM -MG-
 SETLOCAL
 rem get username
-set var=Please enter you Username:
+set var=Please enter your Username: 
 set /p USERID= %var%
 
 rem //removing ssh:// from call
