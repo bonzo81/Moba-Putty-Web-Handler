@@ -3,7 +3,7 @@ Files required to open MobaXterm or PuTTY when using ssh:// and telnet:// URLs o
 
 This is based on https://tcpip.wtf/en/ssh-protocol-link-handler-win10-and-mobaxterm.htm
 
-#### For SSH connection you will be asked to enter username before connecting.
+#### For SSH connections the ssh_handler will frist ask for a username before connecting.
 
 ### MobaXTerm
 
