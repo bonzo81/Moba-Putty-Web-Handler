@@ -5,8 +5,9 @@ Files required to open MobaXterm or PuTTY when using ssh:// and telnet:// URLs
 
 ### MobaXTerm
 
-> MobaXTerm is expected to be installed in the default location of C:\Program Files (x86)\Mobatek\MobaXterm\
-> PuTTY is expected to be at C:\Program Files (x86)\PuTTY\
+>  MobaXTerm is expected to be installed in the default location of C:\Program Files (x86)\Mobatek\MobaXterm\
+
+>  PuTTY is expected at C:\Program Files (x86)\PuTTY\
 
 Go into folder for PuTTY or MobaXTerm.
 
@@ -16,9 +17,9 @@ Go into folder for PuTTY or MobaXTerm.
 4. Login back in and go to settings (Win+i)
 5. Search 'proto'
 6. Select 'choose a default app for each protocol'
-7. Find SSH & Telent in list and make sure 'Custom SSH/Telnet Handler' is selected.
+7. Find SSH & Telnet in list and make sure 'Custom SSH/Telnet Handler' is selected.
 
 
 That's it.
 
-Test you can open ssh:\\x.x.x.x and telnet:\\x.x.x.x links from Librenms or any other web site.
+Test you can open ssh:\\\\x.x.x.x and telnet:\\\\x.x.x.x links from Librenms or any other web site.
