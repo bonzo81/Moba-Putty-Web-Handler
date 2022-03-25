@@ -1,9 +1,8 @@
 @echo off
 REM Simple SSH Link Protocol Handler for Win10
-REM Can be used with Mobaxterm or easy adaopted to any other ssh client
+REM Can be used with Mobaxterm or easy adopted to any other ssh client
 REM Public Domain feel free to use.
-REM https://tcpip.wtf
-REM -MG-
+REM Based on https://tcpip.wtf
 SETLOCAL
 rem get username
 set var=Please enter your Username: 
