@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\telnet]
+@="URL: telnet Protocol"
+"URL Protocol"=""
+
+;Change this to your actual path of the previous generated Batch File
+[HKEY_CLASSES_ROOT\telnet_custom_handler\shell\open\command]
+@="C:\\Program Files (x86)\\Mobatek\\MobaXterm\\telnet_handler.cmd %1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
+"SSH Custom handler"="Software\\Classes\\telnet_custom_handler\\Capabilities"
+
+[HKEY_CLASSES_ROOT\telnet_custom_handler\Capabilities\UrlAssociations]
+"telnet"="telnet_custom_handler"
+
+;You can use any ICO File or just using mobaxterms Icon
+[HKEY_CLASSES_ROOT\telnet_custom_handler\Application]
+"ApplicationIcon"="\"C:\\Program Files (x86)\\Mobatek\\MobaXterm\\MobaXterm.exe\""
+"ApplicationName"="Custom Telnet Handler"
+"ApplicationDescription"="Custom Telnet Handler"
+"ApplicationCompany"="Custom Telnet Handler"

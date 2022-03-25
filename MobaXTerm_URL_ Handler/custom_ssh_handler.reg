@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ssh]
+@="URL: ssh Protocol"
+"URL Protocol"=""
+
+;Change this to your actual path of the previous generated Batch File
+[HKEY_CLASSES_ROOT\ssh_custom_handler\shell\open\command]
+@="C:\\Program Files (x86)\\Mobatek\\MobaXterm\\ssh_handler.cmd %1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
+"SSH Custom handler"="Software\\Classes\\ssh_custom_handler\\Capabilities"
+
+[HKEY_CLASSES_ROOT\ssh_custom_handler\Capabilities\UrlAssociations]
+"ssh"="ssh_custom_handler"
+
+;You can use any ICO File or just using mobaxterms Icon
+[HKEY_CLASSES_ROOT\ssh_custom_handler\Application]
+"ApplicationIcon"="\"C:\\Program Files (x86)\\Mobatek\\MobaXterm\\MobaXterm.exe\""
+"ApplicationName"="Custom SSH Handler"
+"ApplicationDescription"="Custom SSH Handler"
+"ApplicationCompany"="Custom SSH Handler"
