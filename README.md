@@ -1,6 +1,8 @@
 # Moba-Putty-Web-Handler
 Files required to open MobaXterm or PuTTY when using ssh:// and telnet:// URLs
 
+####For SSH connection you will be asked to enter username before connecting.
+
 ### MobaXTerm
 
 > MobaXTerm is expected to be installed in the default location of C:\Program Files (x86)\Mobatek\MobaXterm\
