@@ -3,7 +3,6 @@ REM Simple SSH Link Protocol Handler for Win10
 REM Can be used with PuTTY or easy adopted to any other ssh client
 REM Public Domain feel free to use.
 REM Based on https://tcpip.wtf
-REM -MG-
 SETLOCAL
 rem get username
 set var=Please enter your Username: 
