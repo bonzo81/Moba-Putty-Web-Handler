@@ -1,6 +1,8 @@
 # Moba-Putty-Web-Handler
 Files required to open MobaXterm or PuTTY when using ssh:// and telnet:// URLs
 
+This is based on https://tcpip.wtf/en/ssh-protocol-link-handler-win10-and-mobaxterm.htm
+
 #### For SSH connection you will be asked to enter username before connecting.
 
 ### MobaXTerm
