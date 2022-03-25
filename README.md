@@ -5,23 +5,24 @@ This is based on https://tcpip.wtf/en/ssh-protocol-link-handler-win10-and-mobaxt
 
 #### For SSH connections the ssh_handler will first ask for a username before connecting.
 
-### MobaXTerm
-
 >  MobaXTerm is expected to be installed in the default location of C:\Program Files (x86)\Mobatek\MobaXterm\
 
 >  PuTTY is expected at C:\Program Files (x86)\PuTTY\
 
-Go into folder for PuTTY or MobaXTerm.
+### Instructions
 
-1. Copy 'ssh_handler' & 'telnet_handler' to C:\Program Files (x86)\Mobatek\MobaXterm\ OR C:\Program Files (x86)\PuTTY\
-2. Run each reg file
-3. Restart PC
-4. Login back in and go to settings (Win+i)
-5. Search 'proto'
-6. Select 'choose a default app for each protocol'
-7. Find SSH & Telnet in list and make sure 'Custom SSH/Telnet Handler' is selected.
+Go into repo folder for PuTTY or MobaXTerm.
+
+1. Download the PuTTY or MobaXTerm folder.
+2. Copy 'ssh_handler' & 'telnet_handler' to C:\Program Files (x86)\Mobatek\MobaXterm\ OR C:\Program Files (x86)\PuTTY\
+3. Run each reg file
+4. Restart PC
+5. Login back in and go to settings (Win+i)
+6. Search 'proto'
+7. Select 'choose a default app for each protocol'
+8. Find SSH & Telnet in list and make sure 'Custom SSH/Telnet Handler' is selected.
 
 
 That's it.
 
-Test you can open ssh://x.x.x.x/ and telnet://x.x.x.x/ links from Librenms or any other web site.
+Test you can open ssh://x.x.x.x/ and telnet://x.x.x.x/ links.
