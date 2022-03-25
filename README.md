@@ -24,4 +24,4 @@ Go into folder for PuTTY or MobaXTerm.
 
 That's it.
 
-Test you can open ssh:\\\\x.x.x.x and telnet:\\\\x.x.x.x links from Librenms or any other web site.
+Test you can open ssh://x.x.x.x/ and telnet://x.x.x.x/ links from Librenms or any other web site.
